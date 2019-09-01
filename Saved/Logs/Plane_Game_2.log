@@ -1,0 +1,508 @@
+﻿Log file open, 08/26/19 16:36:58
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Plane_Game
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.266543
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin PathFollow
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.081s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-7700 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line:  
+LogInit: Base Directory: D:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.000s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.08.26-20.36.58:975][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.26-20.36.58:975][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.08.26-20.36.58:986][  0]LogHAL: Display: Platform has ~ 16 GB [17120129024 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.08.26-20.36.58:986][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.08.26-20.36.58:986][  0]LogInit: Going up to parent DeviceProfile []
+[2019.08.26-20.36.58:986][  0]LogInit: Computer: DESKTOP-8HANKV7
+[2019.08.26-20.36.58:986][  0]LogInit: User: Wholeheartgamer
+[2019.08.26-20.36.58:986][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.08.26-20.36.58:986][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.08.26-20.36.58:986][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.08.26-20.36.58:986][  0]LogMemory: Platform Memory Stats for Windows
+[2019.08.26-20.36.58:986][  0]LogMemory: Process Physical Memory: 100.32 MB used, 100.33 MB peak
+[2019.08.26-20.36.58:986][  0]LogMemory: Process Virtual Memory: 90.95 MB used, 90.95 MB peak
+[2019.08.26-20.36.58:986][  0]LogMemory: Physical Memory: 6628.59 MB used,  9698.44 MB free, 16327.03 MB total
+[2019.08.26-20.36.58:986][  0]LogMemory: Virtual Memory: 4628.35 MB used,  9698.44 MB free, 134217728.00 MB total
+[2019.08.26-20.36.59:009][  0]LogInit: Using OS detected language (en-US).
+[2019.08.26-20.36.59:009][  0]LogInit: Using OS detected locale (en-US).
+[2019.08.26-20.36.59:010][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.08.26-20.36.59:322][  0]LogStreaming: Display: Took  0.314s to InitEngineTextLocalization.
+[2019.08.26-20.36.59:323][  0]LogInit: Setting process to per monitor DPI aware
+[2019.08.26-20.36.59:353][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.08.26-20.36.59:353][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.08.26-20.36.59:514][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.26-20.36.59:514][  0]LogD3D11RHI: D3D11 adapters:
+[2019.08.26-20.36.59:558][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2019.08.26-20.36.59:558][  0]LogD3D11RHI:       2997/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.08.26-20.36.59:560][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.08.26-20.36.59:560][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.08.26-20.36.59:560][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.08.26-20.36.59:566][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.08.26-20.36.59:566][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2019.08.26-20.36.59:566][  0]LogWindows: EnumDisplayDevices:
+[2019.08.26-20.36.59:566][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2019.08.26-20.36.59:566][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.08.26-20.36.59:567][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.08.26-20.36.59:567][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.08.26-20.36.59:567][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.08.26-20.36.59:567][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2019.08.26-20.36.59:567][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2019.08.26-20.36.59:567][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2019.08.26-20.36.59:567][  0]LogRHI: Texture pool is 2097 MB (70% of 2997 MB)
+[2019.08.26-20.36.59:592][  0]LogD3D11RHI: Async texture creation enabled
+[2019.08.26-20.36.59:602][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.08.26-20.36.59:604][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Intermediate/Shaders/WorkingDirectory/5364/).
+[2019.08.26-20.36.59:604][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Wholeheartgamer/AppData/Local/Temp/UnrealShaderWorkingDir/3D3632784B63253391E2B78D1C6ABAF6/'.
+[2019.08.26-20.36.59:840][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.08.26-20.36.59:850][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.08.26-20.36.59:860][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.08.26-20.36.59:871][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.08.26-20.36.59:881][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.08.26-20.36.59:891][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.08.26-20.36.59:901][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.08.26-20.36.59:911][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.08.26-20.36.59:915][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:977][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.08.26-20.36.59:978][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.08.26-20.37.00:032][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.26-20.37.00:032][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.08.26-20.37.00:050][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.26-20.37.00:050][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.08.26-20.37.00:060][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.08.26-20.37.00:070][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.08.26-20.37.00:080][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.08.26-20.37.00:090][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.08.26-20.37.00:097][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.08.26-20.37.00:098][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.08.26-20.37.00:130][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.08.26-20.37.00:130][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.08.26-20.37.00:130][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.08.26-20.37.00:725][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.08.26-20.37.00:768][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Wholeheartgamer/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.26-20.37.00:769][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Wholeheartgamer/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.08.26-20.37.00:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.08.26-20.37.00:769][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.08.26-20.37.00:769][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.08.26-20.37.00:769][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.08.26-20.37.00:781][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.08.26-20.37.00:794][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Wholeheartgamer/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.08.26-20.37.00:794][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.08.26-20.37.00:794][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.08.26-20.37.00:809][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.08.26-20.37.00:810][  0]LogSlate: Using FreeType 2.6.0
+[2019.08.26-20.37.00:810][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.08.26-20.37.00:870][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2019.08.26-20.37.01:133][  0]LogInit: Selected Device Profile: [Windows]
+[2019.08.26-20.37.01:232][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.08.26-20.37.01:234][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.08.26-20.37.01:234][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.08.26-20.37.01:234][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.08.26-20.37.01:234][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.08.26-20.37.01:246][  0]LogNetVersion: Plane_Game 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 1315238577)
+[2019.08.26-20.37.01:649][  0]LogPackageLocalizationCache: Processed 12 localized package path(s) for 2 prioritized culture(s) in 0.083421 seconds
+[2019.08.26-20.37.01:654][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.08.26-20.37.01:654][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.08.26-20.37.01:654][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.08.26-20.37.02:278][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.08.26-20.37.02:291][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.08.26-20.37.02:449][  0]SourceControl: Source control is disabled
+[2019.08.26-20.37.02:449][  0]SourceControl: Source control is disabled
+[2019.08.26-20.37.02:449][  0]SourceControl: Source control is disabled
+[2019.08.26-20.37.02:450][  0]SourceControl: Source control is disabled
+[2019.08.26-20.37.02:608][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.08.26-20.37.02:787][  0]LogOcInput: OculusInput pre-init called
+[2019.08.26-20.37.02:839][  0]LogEngine: Initializing Engine...
+[2019.08.26-20.37.02:840][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.08.26-20.37.02:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.26-20.37.02:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.26-20.37.02:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.26-20.37.02:841][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.26-20.37.03:053][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.08.26-20.37.03:060][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.08.26-20.37.03:126][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 6 channels at 48 kHz using 32 bits per sample (channel mask 0x3f)
+[2019.08.26-20.37.03:143][  0]LogInit: FAudioDevice initialized.
+[2019.08.26-20.37.03:143][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.08.26-20.37.03:325][  0]LogDerivedDataCache: Saved boot cache 0.18s 71MB C:/Users/Wholeheartgamer/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.08.26-20.37.03:335][  0]LogInit: Texture streaming: Enabled
+[2019.08.26-20.37.03:345][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.08.26-20.37.03:353][  0]LogInit: Transaction tracking system initialized
+[2019.08.26-20.37.03:364][  0]BlueprintLog: New page: Editor Load
+[2019.08.26-20.37.03:403][  0]LocalizationService: Localization service is disabled
+[2019.08.26-20.37.03:598][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.08.26-20.37.03:598][  0]LogCook: Display: Mobile HDR setting 1
+[2019.08.26-20.37.03:598][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.08.26-20.37.03:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.08.26-20.37.03:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.08.26-20.37.03:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.08.26-20.37.03:598][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.08.26-20.37.03:787][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/' took 0.01s
+[2019.08.26-20.37.03:787][  0]SourceControl: Source control is disabled
+[2019.08.26-20.37.03:788][  0]Cmd: MAP LOAD FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/StarterContent/Maps/Minimal_Default.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.26-20.37.03:788][  0]LogEditorServer: Warning: Can't find file 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/StarterContent/Maps/Minimal_Default.umap'
+[2019.08.26-20.37.03:788][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.26-20.37.03:823][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 34.969ms to complete.
+[2019.08.26-20.37.03:823][  0]LogFileHelpers: Loading map 'Minimal_Default' took 0.035
+[2019.08.26-20.37.03:919][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.26-20.37.03:926][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.26-20.37.03:933][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.26-20.37.03:940][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.08.26-20.37.03:944][  0]LogCollectionManager: Loaded 0 collections in 0.000826 seconds
+[2019.08.26-20.37.03:982][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Collections/' took 0.01s
+[2019.08.26-20.37.03:982][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Developers/Wholeheartgamer/Collections/' took 0.01s
+[2019.08.26-20.37.03:982][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Collections/' took 0.01s
+[2019.08.26-20.37.03:982][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.08.26-20.37.03:990][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2576 classes and 607 folders.
+[2019.08.26-20.37.03:994][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.26-20.37.04:018][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.26-20.37.04:021][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2019.08.26-20.37.04:040][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2019.08.26-20.37.04:046][  0]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.08.26-20.37.04:047][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.08.26-20.37.04:052][  0]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.08.26-20.37.04:113][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.08.26-20.37.04:210][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2019.08.26-20.37.04:210][  0]LogLoad: (Engine Initialization) Total time: 6.38 seconds
+[2019.08.26-20.37.04:210][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.08.26-20.37.04:245][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.08.26-20.37.04:261][  0]LogSlate: Took 0.000184 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.26-20.37.04:275][  1]LogAssetRegistry: Asset discovery search completed in 3.4276 seconds
+[2019.08.26-20.37.04:277][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.08.26-20.37.04:277][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000045 seconds (updated 0 objects)
+[2019.08.26-20.37.11:915][913]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.26-20.37.11:972][920]LogSlate: Window 'Plugins' being destroyed
+[2019.08.26-20.37.11:975][920]LogSlate: Window 'Plugins' being destroyed
+[2019.08.26-20.37.11:975][920]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2019.08.26-20.37.12:708][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.26-20.37.12:874][ 27]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.08.26-20.37.12:880][ 27]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2019.08.26-20.37.13:336][ 27]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.08.26-20.37.15:771][235]LogSlate: Window 'NewBlueprint' being destroyed
+[2019.08.26-20.37.15:864][235]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/NewBlueprint.NewBlueprint
+[2019.08.26-20.37.16:135][235]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.08.26-20.37.26:577][464]LogSlate: Took 0.003881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.08.26-20.37.27:026][513]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2019.08.26-20.38.27:555][761]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.26-20.38.35:727][720]LogSlate: Window 'NewBlueprint*' being destroyed
+[2019.08.26-20.38.36:682][834]BlueprintLog: New page: Compile NewBlueprint
+[2019.08.26-20.38.43:725][607]LogMetaData: Removing '/Game/Plane_1.Plane_1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.08.26-20.38.43:725][607]LogMetaData: Removing '/Game/Plane_1.Plane_1_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.08.26-20.38.43:725][607]LogMetaData: Removing '/Game/Plane_1.Plane_1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.08.26-20.38.43:725][607]LogMetaData: Removing '/Game/Plane_1.Plane_1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.08.26-20.38.43:725][607]LogMetaData: Removing '/Game/Plane_1.Plane_1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.08.26-20.38.43:725][607]LogMetaData: Removing '/Game/Plane_1.SKEL_Plane_1_C' ref from Metadata '/Game/NewBlueprint.PackageMetaData'
+[2019.08.26-20.38.43:754][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane_1" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_1.uasset" SILENT=true
+[2019.08.26-20.38.43:765][607]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_1F7EA18F549280D044B723E91DBBE759E.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_1.uasset'
+[2019.08.26-20.40.11:250][ 27]LogAIModule: Creating AISystem for world Airport
+[2019.08.26-20.40.11:256][ 27]LogAssetEditorManager: Opening Asset editor for World /Game/Maps/Airport.Airport
+[2019.08.26-20.40.12:445][ 27]LogSlate: Window 'Save Content' being destroyed
+[2019.08.26-20.40.12:452][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane_2" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_2.uasset" SILENT=true
+[2019.08.26-20.40.12:463][ 27]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_2F7ECD29B48F0542CFE9B79A784BB7B36.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_2.uasset'
+[2019.08.26-20.40.12:465][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane_3" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_3.uasset" SILENT=true
+[2019.08.26-20.40.12:475][ 27]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_3E3F6B68A4DD15121B264E1AD4E6E5857.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_3.uasset'
+[2019.08.26-20.40.12:477][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane_4" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_4.uasset" SILENT=true
+[2019.08.26-20.40.12:487][ 27]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_450144B4648BFFF478A1812BEE2AA48A5.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_4.uasset'
+[2019.08.26-20.40.12:489][ 27]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Plane_5" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_5.uasset" SILENT=true
+[2019.08.26-20.40.12:500][ 27]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_5E5861793486F70ED3E59789D376E20A5.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Plane_5.uasset'
+[2019.08.26-20.40.12:502][ 27]Cmd: MAP LOAD FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Maps/Airport.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.08.26-20.40.12:502][ 27]LightingResults: New page: Lighting Build
+[2019.08.26-20.40.12:513][ 27]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0003 seconds. Added 5 classes and 0 folders.
+[2019.08.26-20.40.12:513][ 27]LoadErrors: New page: Loading map: Airport.umap
+[2019.08.26-20.40.12:514][ 27]MapCheck: New page: Map Check
+[2019.08.26-20.40.12:514][ 27]LightingResults: New page: Lighting Build
+[2019.08.26-20.40.12:538][ 27]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.08.26-20.40.12:580][ 27]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.08.26-20.40.12:621][ 27]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 40.396ms to complete.
+[2019.08.26-20.40.12:621][ 27]LogFileHelpers: Loading map 'Airport' took 0.118
+[2019.08.26-20.40.28:418][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1_C' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:418][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:418][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1:EventGraph.K2Node_Event_0' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:418][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1:EventGraph.K2Node_Event_2' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C:ReceiveBeginPlay' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C:ReceiveTick' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C:PFPathFollower' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.SKEL_Plane_1_C:UserConstructionScript' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1_C:PFPathFollower' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:419][871]LogMetaData: Removing '/Game/Planes/Plane_1.Plane_1_C:UserConstructionScript' ref from Metadata '/Game/Plane_1.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C:ReceiveTick' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C:ReceiveBeginPlay' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.Plane_2_C' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C:PFPathFollower' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.SKEL_Plane_2_C:UserConstructionScript' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.Plane_2_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.Plane_2_C:PFPathFollower' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:423][871]LogMetaData: Removing '/Game/Planes/Plane_2.Plane_2_C:UserConstructionScript' ref from Metadata '/Game/Plane_2.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C:ReceiveTick' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C:ReceiveBeginPlay' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.Plane_3_C' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C:PFPathFollower' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.SKEL_Plane_3_C:UserConstructionScript' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.Plane_3_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.Plane_3_C:PFPathFollower' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:427][871]LogMetaData: Removing '/Game/Planes/Plane_3.Plane_3_C:UserConstructionScript' ref from Metadata '/Game/Plane_3.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C:ReceiveTick' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C:ReceiveBeginPlay' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.Plane_4_C' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C:PFPathFollower' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.SKEL_Plane_4_C:UserConstructionScript' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:431][871]LogMetaData: Removing '/Game/Planes/Plane_4.Plane_4_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:432][871]LogMetaData: Removing '/Game/Planes/Plane_4.Plane_4_C:PFPathFollower' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:432][871]LogMetaData: Removing '/Game/Planes/Plane_4.Plane_4_C:UserConstructionScript' ref from Metadata '/Game/Plane_4.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C:ReceiveTick' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C:ReceiveActorBeginOverlap' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C:ReceiveBeginPlay' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.Plane_5_C' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C:PFPathFollower' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.SKEL_Plane_5_C:UserConstructionScript' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.Plane_5_C:DefaultSceneRoot' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.Plane_5_C:PFPathFollower' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:436][871]LogMetaData: Removing '/Game/Planes/Plane_5.Plane_5_C:UserConstructionScript' ref from Metadata '/Game/Plane_5.PackageMetaData'
+[2019.08.26-20.40.28:449][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Planes/Plane_1" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_1.uasset" SILENT=true
+[2019.08.26-20.40.28:461][871]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_156CC3A81401641723BDF15845143CFE7.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_1.uasset'
+[2019.08.26-20.40.28:467][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Planes/Plane_2" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_2.uasset" SILENT=true
+[2019.08.26-20.40.28:478][871]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_21E272CEF4E2806EEAB4919A3F70ADE81.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_2.uasset'
+[2019.08.26-20.40.28:484][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Planes/Plane_3" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_3.uasset" SILENT=true
+[2019.08.26-20.40.28:494][871]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_3609CEFA14E479F283E1C03A060B6FA5B.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_3.uasset'
+[2019.08.26-20.40.28:500][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Planes/Plane_4" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_4.uasset" SILENT=true
+[2019.08.26-20.40.28:511][871]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_409E81EBD4B48CA1FB737AE8D45A18D45.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_4.uasset'
+[2019.08.26-20.40.28:516][871]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Planes/Plane_5" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_5.uasset" SILENT=true
+[2019.08.26-20.40.28:527][871]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Plane_5C60C35834C4AEBDCF88DBDAC65BF7991.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Planes/Plane_5.uasset'
+[2019.08.26-20.45.28:318][921]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\Wholeheartgamer\Desktop\Airport.fbx)
+[2019.08.26-20.45.28:479][921]LogFbx: Loading FBX Scene from C:\Users\Wholeheartgamer\Desktop\Airport.fbx
+[2019.08.26-20.45.29:306][921]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.26-20.45.31:164][921]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.26-21.39.14:322][980]AssetReimport: New page: Outstanding source content changes 1:39:14 PM
+[2019.08.26-21.39.14:464][981]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Import/airplane.obj)
+[2019.08.26-21.39.14:584][981]LogFbx: Loading FBX Scene from C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Import/airplane.obj
+[2019.08.26-21.39.19:043][981]LogFbx: FBX Scene Loaded Succesfully
+[2019.08.26-21.39.22:114][981]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.08.26-21.39.26:600][981]LogStaticMesh: Building static mesh airplane...
+[2019.08.26-21.39.30:902][981]LogStaticMesh: Built static mesh [4.30s] /Game/Import/airplane.airplane
+[2019.08.26-21.39.35:199][982]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/airplane" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Import/airplane.uasset" SILENT=true
+[2019.08.26-21.39.35:287][982]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/airplaneB40D55294F2BFBC5D2E954B5669D285B.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Content/Import/airplane.uasset'
+[2019.08.26-21.39.38:014][307]LogSlate: Window 'Message Log' being destroyed
+[2019.08.26-21.39.38:017][307]LogSlate: Window 'Message Log' being destroyed
+[2019.08.26-21.39.38:300][341]AssetReimport: Importing new asset /Game/Import/airplane.
+[2019.08.26-21.39.46:804][149]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/Import/airplane.airplane
+[2019.08.26-21.39.47:958][150]LogRenderer: Reallocating scene render targets to support 1432x924 Format 10 NumSamples 1 (Frame:1).
+[2019.08.26-21.40.21:489][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.08.26-21.40.33:825][537]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.26-21.40.35:134][685]LogActorFactory: Actor Factory created airplane
+[2019.08.26-21.40.35:708][752]LogActorFactory: Actor Factory created airplane
+[2019.08.26-21.40.49:820][369]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.08.26-21.40.50:956][475]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.08.26-21.40.51:083][488]LogAssetEditorManager: Opening Asset editor for Material /Game/Import/defaultMat.defaultMat
+[2019.08.26-21.40.51:105][488]LogMaterial: Display: Missing cached shader map for material defaultMat, compiling. 
+[2019.08.26-21.40.51:362][488]LogMaterial: Display: Missing cached shader map for material defaultMat, compiling. 
+[2019.08.26-21.40.51:417][488]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.08.26-21.40.51:417][488]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.08.26-21.40.51:417][488]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.26-21.40.51:417][488]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.26-21.40.51:446][488]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.08.26-21.40.51:997][510]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.08.26-21.40.52:023][513]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.08.26-21.40.52:040][515]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.08.26-21.40.52:055][517]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.08.26-21.40.52:166][530]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.08.26-21.40.52:198][534]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.08.26-21.40.52:198][534]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.08.26-21.40.52:215][536]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.08.26-21.40.52:322][549]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.08.26-21.40.52:455][561]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.08.26-21.40.52:563][575]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.08.26-21.40.52:589][578]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.08.26-21.40.52:694][590]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.08.26-21.40.52:789][601]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.08.26-21.40.52:831][606]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.08.26-21.40.52:972][623]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.08.26-21.40.52:997][626]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.08.26-21.40.53:064][634]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.08.26-21.40.53:148][644]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.08.26-21.40.53:319][664]MaterialEditorStats: Base pass shader: 101 instructions
+[2019.08.26-21.40.53:319][664]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 174 instructions
+[2019.08.26-21.40.53:319][664]MaterialEditorStats: Base pass vertex shader: 32 instructions
+[2019.08.26-21.40.53:319][664]MaterialEditorStats: Texture samplers: 3/16
+[2019.08.26-21.41.31:781][132]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Airport_Auto18E7B4A02465F74759AA0F5AF98858561.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Autosaves/Game/Maps/Airport_Auto1.umap'
+[2019.08.26-21.41.31:787][132]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Airport' took 0.143
+[2019.08.26-21.41.31:787][132]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.143
+[2019.08.26-21.41.31:789][132]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Import/defaultMat] ([1] browsable assets)...
+[2019.08.26-21.41.31:807][132]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Import/defaultMat.defaultMat]
+[2019.08.26-21.41.31:807][132]OBJ SavePackage: Finished generating thumbnails for package [/Game/Import/defaultMat]
+[2019.08.26-21.41.31:807][132]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Import/defaultMat" FILE="C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Autosaves/Game/Import/defaultMat_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.08.26-21.41.31:845][132]LogSavePackage: Moving 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/defaultMat_Auto1482EDB554DECC16F7D9260B9A31D07C5.tmp' to 'C:/Users/Wholeheartgamer/Documents/Unreal Projects/Plane_Game/Saved/Autosaves/Game/Import/defaultMat_Auto1.uasset'
+[2019.08.26-21.41.31:846][132]LogFileHelpers: Auto-saving content packages took 0.057
